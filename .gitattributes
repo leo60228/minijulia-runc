@@ -1,0 +1,4 @@
+*.so* filter=lfs diff=lfs merge=lfs -text
+*.tar.gz filter=lfs diff=lfs merge=lfs -text
+*.jl filter=lfs diff=lfs merge=lfs -text
+busybox filter=lfs diff=lfs merge=lfs -text
